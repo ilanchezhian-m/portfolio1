@@ -6,10 +6,10 @@ import { ChatBotContext } from "~/routes/layout";
 import { useLocation } from "@builder.io/qwik-city";
 
 import PhTwitterLogoLight from "~/Icons/footer/PhTwitterLogoLight";
-import PhFacebookLogoLight from "~/Icons/footer/PhFacebookLogoLight";
+// import PhFacebookLogoLight from "~/Icons/footer/PhFacebookLogoLight";
 import PhGithubLogoLight from "~/Icons/footer/PhGithubLogoLight";
 import PhLinkedinLogoLight from "~/Icons/footer/PhLinkedinLogoLight";
-import PhInstagramLogoLight from "~/Icons/footer/PhInstagramLogoLight";
+// import PhInstagramLogoLight from "~/Icons/footer/PhInstagramLogoLight";
 import { currentPageContext } from "~/routes/layout";
 
 export default component$(() => {

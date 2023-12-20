@@ -84,13 +84,21 @@ export default component$(() => {
           >
             Projects
           </li>
-          <li
+          {/* <li
             class={currentPage.services ? currentClass : otherClass}
             onClick$={() => {
               nav("/services");
             }}
           >
             Services
+          </li> */}
+          <li
+            class={currentPage.services ? currentClass : otherClass}
+            onClick$={() => {
+              nav("/services");
+            }}
+          >
+            Resume
           </li>
           <li>
             <button
