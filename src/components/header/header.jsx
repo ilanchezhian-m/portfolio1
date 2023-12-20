@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Link, useNavigate } from "@builder.io/qwik-city";
-import { ButtonFirst } from "../button/ButtonFirst";
+// import { ButtonFirst } from "../button/ButtonFirst";
 import { ChatBotContext, currentPageContext } from "~/routes/layout";
 import { useContext } from "@builder.io/qwik";
 import { $ } from "@builder.io/qwik";
@@ -98,6 +98,7 @@ export default component$(() => {
               nav("/services");
             }}
           >
+            {/* have to create an Resume an add an download and view option for an resume */}
             Resume
           </li>
           <li>
@@ -109,7 +110,7 @@ export default component$(() => {
             </button>
           </li>
         </ul>
-        <ButtonFirst>Hire me</ButtonFirst>
+        {/* <ButtonFirst>Hire me</ButtonFirst> */}
       </div>
     </nav>
   );

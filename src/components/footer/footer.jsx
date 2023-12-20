@@ -1,6 +1,6 @@
 import { component$, $ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
-import { ButtonFifth } from "../button/ButtonFifth";
+// import { ButtonFifth } from "../button/ButtonFifth";
 import { useContext } from "@builder.io/qwik";
 import { ChatBotContext } from "~/routes/layout";
 import { useLocation } from "@builder.io/qwik-city";
@@ -71,9 +71,9 @@ export default component$(() => {
               succeed.”
             </p>
           </div>
-          <div class="flex items-center md:justify-start">
+          {/* <div class="flex items-center md:justify-start">
             <ButtonFifth>Schedule a call</ButtonFifth>
-          </div>
+          </div> */}
           <div class="flex items-center justify-center gap-8 md:ml-16">
             <Link
               href=""
