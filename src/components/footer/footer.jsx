@@ -64,7 +64,7 @@ export default component$(() => {
         <div class="flex flex-col items-center gap-8 md:items-start md:justify-start xl:gap-16">
           <div class="flex flex-col items-center md:items-start md:justify-start xl:gap-8">
             <h4 class="text-center text-27 font-medium md:justify-start md:text-left xl:text-36">
-              Anirban Das
+              Ilanchezhian M
             </h4>
             <p class="max-w-255 text-center text-12 md:justify-start md:text-left md:text-13 xl:max-w-340 xl:text-16">
               “Building high-performance websites that help your business
@@ -76,40 +76,40 @@ export default component$(() => {
           </div>
           <div class="flex items-center justify-center gap-8 md:ml-16">
             <Link
-              href="https://twitter.com/Anirban12d"
+              href=""
               target="_blank"
               aria-label="Link to Anirban Das's Twitter profile"
             >
               <PhTwitterLogoLight />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/anirban12d/"
+              href="https://www.linkedin.com/in/ilanchezhian-m-hyhfgds/"
               target="_blank"
               aria-label="Link to Anirban Das's Linkedin profile"
             >
               <PhLinkedinLogoLight />
             </Link>
-            <Link
+            {/* <Link
               href="https://www.instagram.com/anirban.jpg/"
               target="_blank"
               aria-label="Link to Anirban Das's Instagram profile"
             >
               <PhInstagramLogoLight />
-            </Link>
+            </Link> */}
             <Link
-              href="https://github.com/anirban12d"
+              href="https://github.com/ilanchezhian-m"
               target="_blank"
               aria-label="Link to Anirban Das's Github profile"
             >
               <PhGithubLogoLight />
             </Link>
-            <Link
+            {/* <Link
               href="https://www.facebook.com/prince.anirban.90"
               target="_blank"
               aria-label="Link to Anirban Das's Facebook profile"
             >
               <PhFacebookLogoLight />
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div class="flex w-full justify-between md:w-auto md:gap-16 xl:gap-32">
@@ -145,6 +145,8 @@ export default component$(() => {
             <p class="text-16 md:text-16">
               <button onClick$={contactfn}>Message</button>
             </p>
+            <p> ilanchezhian27@gmail.com</p>
+            <p>+91 9443353813</p>
           </div>
         </div>
       </div>

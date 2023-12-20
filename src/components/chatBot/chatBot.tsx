@@ -191,7 +191,7 @@ export default component$(() => {
                 </div>
                 <div class="w-fit rounded-4xl bg-bgColor px-24 py-16 text-16 font-light text-white">
                   <a href="mailto: anirbandashere@gmail.com">
-                    anirbandashere@gmail.com
+                    ilanchezhian27@gmail.com
                   </a>
                 </div>
                 <div class="w-fit rounded-4xl bg-bgColor px-24 py-16 text-16 font-light text-white">

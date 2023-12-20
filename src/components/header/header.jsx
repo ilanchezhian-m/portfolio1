@@ -64,7 +64,7 @@ export default component$(() => {
       <div class="flex w-full flex-row items-center justify-between bg-white px-8 py-8 md:rounded-4xl md:px-16 lg:px-32 xl:w-1280">
         <div class="cursor-pointer justify-start text-center text-19 font-medium leading-[90%] md:text-24">
           <Link href="/" aria-label="Go to home">
-            Anirban Das
+            Ilanchezhian M
           </Link>
         </div>
         <ul class="hidden flex-row gap-2 text-16 lg:flex">

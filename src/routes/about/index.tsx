@@ -35,8 +35,11 @@ export default component$(() => {
           <div class="mt-72 flex flex-col items-center gap-20 md:mt-32 md:gap-48 xl:mt-64">
             <h2 class="text-center text-28 md:text-47 xl:text-61">Hi there!</h2>
             <h1 class="text-center text-36 sm:text-40 md:text-80 lg:text-105 xl:text-138">
-              I'm Anirban Das
+              I'm Ilanchezhian
             </h1>
+            <h2  class="text-center text-13 leading-150 md:text-19 xl:text-40 xl:leading-150">
+              Front End Developer React
+            </h2>
             <h2 class="text-center text-13 leading-150 md:text-19 xl:text-24 xl:leading-150">
               I Create Visually Stunning and Intuitively Functional Websites.
               <br />
@@ -274,7 +277,7 @@ export default component$(() => {
 
 export const head: DocumentHead = {
   // This will be used to resolve the <title> of the page
-  title: "Anirban Das - About",
+  title: "Ilanchezhian M - About",
   meta: [
     {
       name: "description",
@@ -283,7 +286,7 @@ export const head: DocumentHead = {
     // Open graph
     {
       property: "og:title",
-      content: "Anirban Das - About",
+      content: "ilanchezhian M - About",
     },
     {
       property: "og:description",
