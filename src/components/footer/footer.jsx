@@ -6,7 +6,7 @@ import { ChatBotContext } from "~/routes/layout";
 import { useLocation } from "@builder.io/qwik-city";
 
 import PhTwitterLogoLight from "~/Icons/footer/PhTwitterLogoLight";
-// import PhFacebookLogoLight from "~/Icons/footer/PhFacebookLogoLight";
+import PhFacebookLogoLight from "~/Icons/footer/PhFacebookLogoLight";
 import PhGithubLogoLight from "~/Icons/footer/PhGithubLogoLight";
 import PhLinkedinLogoLight from "~/Icons/footer/PhLinkedinLogoLight";
 // import PhInstagramLogoLight from "~/Icons/footer/PhInstagramLogoLight";
@@ -74,21 +74,22 @@ export default component$(() => {
           {/* <div class="flex items-center md:justify-start">
             <ButtonFifth>Schedule a call</ButtonFifth>
           </div> */}
-          <div class="flex items-center justify-center gap-8 md:ml-16">
-            <Link
-              href=""
-              target="_blank"
-              aria-label="Link to Ilan's Twitter profile"
-            >
-              <PhTwitterLogoLight />
-            </Link>
-            <Link
+          <div class="flex items-center justify-center gap-10 md:ml-16">
+          <Link
               href="https://www.linkedin.com/in/ilanchezhian-m-hyhfgds/"
               target="_blank"
               aria-label="Link to Ilan's Linkedin profile"
             >
               <PhLinkedinLogoLight />
             </Link>
+            <Link
+              href="https://twitter.com/ilanchezhian27"
+              target="_blank"
+              aria-label="Link to Ilan's Twitter profile"
+            >
+              <PhTwitterLogoLight  />
+            </Link>
+            
             {/* <Link
               href="https://www.instagram.com/anirban.jpg/"
               target="_blank"
@@ -103,13 +104,13 @@ export default component$(() => {
             >
               <PhGithubLogoLight />
             </Link>
-            {/* <Link
-              href="https://www.facebook.com/prince.anirban.90"
+            <Link
+              href="mailto:ilanchezhian27@gmail.com"
               target="_blank"
               aria-label="Link to Anirban Das's Facebook profile"
             >
               <PhFacebookLogoLight />
-            </Link> */}
+            </Link>
           </div>
         </div>
         <div class="flex w-full justify-between md:w-auto md:gap-16 xl:gap-32">
