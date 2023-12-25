@@ -69,7 +69,7 @@ export default component$(() => {
         <MockupReact />
         <div>
           <Link href="/projects" aria-label="See all my projects">
-            <span class="flex items-center justify-center gap-4 text-16 hover:cursor-pointer md:gap-8 md:text-40 font-bold bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+            <span class="flex items-center justify-center gap-4 text-16 hover:cursor-pointer md:gap-8 md:text-40 font-bold ">
               See my projects
               <span class="inline-block">
                 <PhArrowRight />
