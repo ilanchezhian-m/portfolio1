@@ -460,103 +460,151 @@ export default component$(() => {
               <br />
               These are few of my favorites'
             </h4>
-            <div class="mt-16 flex max-w-848 flex-col items-center gap-16 rounded-4xl border-8  border-solid border-black px-32 py-24 md:mt-32 md:gap-32 md:px-64 md:py-64 lg:px-64 lg:py-72">
+            <div class="mt-16 flex max-w-868 flex-col items-center gap-16 rounded-4xl border-8  border-solid border-black px-32 py-24 md:mt-32 md:gap-32 md:px-64 md:py-64 lg:px-64 lg:py-72">
               <div class="flex items-center justify-around gap-8 sx:gap-10 sm:gap-32 md:gap-64">
                 <Image
-                  src="/images/logo/Webflow-logo.png"
+                  src="/images/logo/html.png"
                   layout="constrained"
                   alt="Webflow logo image."
-                  width={50}
-                  height={50}
-                  background="auto"
-                  class="w-50 md:w-104 xl:w-152"
-                />
-                <Image
-                  src="/images/logo/Shopify-logo.png"
-                  layout="constrained"
-                  alt="Shopify logo image."
-                  width={50}
-                  height={50}
-                  background="auto"
-                  class="w-50 md:w-104 xl:w-152"
-                />
-                <Image
-                  src="/images/logo/vercel-logo.png"
-                  layout="constrained"
-                  alt="Vercel logo image."
-                  width={50}
-                  height={50}
-                  background="auto"
-                  class="w-50 md:w-104 xl:w-152"
-                />
-                <Image
-                  src="/images/logo/Netlify-logo.png"
-                  layout="constrained"
-                  alt="Netlify logo image."
-                  width={50}
-                  height={50}
-                  background="auto"
-                  class="w-50 md:w-104 xl:w-152"
-                />
-              </div>
-              <div class="flex items-center justify-around gap-8 sx:gap-16 sm:gap-32 md:gap-64">
-                <Image
-                  src="/images/logo/Next.js-logo.png"
-                  layout="constrained"
-                  alt="Next.js logo image."
-                  width={40}
-                  height={40}
-                  background="auto"
-                  class="w-40 md:w-80 xl:w-100"
-                />
-                <Image
-                  src="/images/logo/Nuxt.js-logo.png"
-                  layout="constrained"
-                  alt="Nuxt.js logo image."
-                  width={45}
-                  height={45}
-                  background="auto"
-                  class="w-45 md:w-96 xl:w-120"
-                />
-                <Image
-                  src="/images/logo/React-logo.png"
-                  layout="constrained"
-                  alt="React logo image."
                   width={30}
                   height={30}
                   background="auto"
-                  class="w-30 md:w-64 xl:w-60"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                <Image
+                  src="/images/logo/css.png"
+                  layout="constrained"
+                  alt="Shopify logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                   <Image
+                  src="/images/logo/javascript.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                   <Image
+                  src="/images/logo/react.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                <Image
+                  src="/images/logo/redux.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
                 />
               </div>
-              <div class="flex items-center justify-around gap-12 sx:gap-24 sm:gap-24 md:gap-48 lg:gap-56">
+              
+              <div class="flex items-center justify-around gap-8 sx:gap-10 sm:gap-32 md:gap-64">
                 <Image
-                  src="/images/logo/aws-logo.png"
+                  src="/images/logo/tailwind.png"
                   layout="constrained"
-                  alt="AWS logo image."
-                  width={20}
-                  height={20}
+                  alt="Webflow logo image."
+                  width={30}
+                  height={30}
                   background="auto"
-                  class="w-20 md:w-40 xl:w-50"
+                  class="w-50 md:w-104 xl:w-152"
                 />
                 <Image
-                  src="/images/logo/Figma-logo.png"
+                  src="/images/logo/bootstrap.jpg"
                   layout="constrained"
-                  alt="Figma logo image."
-                  width={9}
-                  height={9}
+                  alt="Shopify logo image."
+                  width={30}
+                  height={30}
                   background="auto"
-                  class="w-9 md:w-18 xl:w-26"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                   <Image
+                  src="/images/logo/figma.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                   <Image
+                  src="/images/logo/git.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
                 />
                 <Image
-                  src="/images/logo/Sanity-logo.png"
+                  src="/images/logo/github.png"
                   layout="constrained"
-                  alt="Sanity logo image."
-                  width={18}
-                  height={18}
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
                   background="auto"
-                  class="w-18 md:w-40 xl:w-40"
+                  class="w-50 md:w-104 xl:w-152"
                 />
               </div>
+              <div class="flex items-center justify-around gap-8 sx:gap-10 sm:gap-32 md:gap-64">
+              <Image
+                  src="/images/logo/vite.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                 <Image
+                  src="/images/logo/vercel.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                 <Image
+                  src="/images/logo/github.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                 <Image
+                  src="/images/logo/github.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+                 <Image
+                  src="/images/logo/github.png"
+                  layout="constrained"
+                  alt="Vercel logo image."
+                  width={30}
+                  height={30}
+                  background="auto"
+                  class="w-50 md:w-104 xl:w-152"
+                />
+              </div>
+            
+              
             </div>
           </div>
         </section>
