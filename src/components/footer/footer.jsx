@@ -78,14 +78,14 @@ export default component$(() => {
             <Link
               href=""
               target="_blank"
-              aria-label="Link to Anirban Das's Twitter profile"
+              aria-label="Link to Ilan's Twitter profile"
             >
               <PhTwitterLogoLight />
             </Link>
             <Link
               href="https://www.linkedin.com/in/ilanchezhian-m-hyhfgds/"
               target="_blank"
-              aria-label="Link to Anirban Das's Linkedin profile"
+              aria-label="Link to Ilan's Linkedin profile"
             >
               <PhLinkedinLogoLight />
             </Link>
@@ -99,7 +99,7 @@ export default component$(() => {
             <Link
               href="https://github.com/ilanchezhian-m"
               target="_blank"
-              aria-label="Link to Anirban Das's Github profile"
+              aria-label="Link to Ilan's Github profile"
             >
               <PhGithubLogoLight />
             </Link>
@@ -129,14 +129,7 @@ export default component$(() => {
                     Projects
                   </Link>
                 </li>
-                <li class="text-16 md:text-16">
-                  <Link
-                    href="/services"
-                    aria-label="Find out more about my services"
-                  >
-                    Services
-                  </Link>
-                </li>
+               
               </ul>
             </div>
           </div>

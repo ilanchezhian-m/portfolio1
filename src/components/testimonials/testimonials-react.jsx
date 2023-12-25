@@ -1,58 +1,58 @@
 /** @jsxImportSource react */
 import { qwikify$ } from "@builder.io/qwik-react";
 import { register } from "swiper/element/bundle";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Autoplay } from "swiper/modules";
-import { EffectCards } from "swiper/modules";
-import { createClient } from "@sanity/client";
-import imageUrlBuilder from "@sanity/image-url";
-import { Image } from "@unpic/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Navigation, Pagination, Mousewheel, Autoplay } from "swiper/modules";
+// import { EffectCards } from "swiper/modules";
+// import { createClient } from "@sanity/client";
+// import imageUrlBuilder from "@sanity/image-url";
+// import { Image } from "@unpic/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-cards";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 register();
 
 function testimonials() {
   // const [loading, setLoading] = useState(false);
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
-  const client = createClient({
-    projectId: "izetizop",
-    dataset: "production",
-    useCdn: true, // set to `false` to bypass the edge cache
-    apiVersion: "2023-07-13", // use current date (YYYY-MM-DD) to target the latest API version
-  });
+  // const client = createClient({
+  //   projectId: "izetizop",
+  //   dataset: "production",
+  //   useCdn: true, // set to `false` to bypass the edge cache
+  //   apiVersion: "2023-07-13", // use current date (YYYY-MM-DD) to target the latest API version
+  // });
 
-  const builder = imageUrlBuilder(client);
+  // const builder = imageUrlBuilder(client);
 
-  function urlFor(source) {
-    return builder.image(source);
-  }
+  // function urlFor(source) {
+  //   return builder.image(source);
+  // }
 
-  useEffect(() => {
-    try {
-      const getData = async () => {
-        const dataApi = await client.fetch('*[_type == "testimonials"]');
-        setData(dataApi);
-      };
+  // useEffect(() => {
+  //   try {
+  //     const getData = async () => {
+  //       const dataApi = await client.fetch('*[_type == "testimonials"]');
+  //       setData(dataApi);
+  //     };
 
-      getData();
-    } catch (error) {
-      console.log(error);
-    }
-  }, []);
+  //     getData();
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // }, []);
 
   return (
     <>
-      <section className="my-32 flex w-full flex-col items-center gap-32 overflow-hidden bg-bgColor py-32 md:py-96 xl:gap-128 xl:py-160">
+      {/* <section className="my-32 flex w-full flex-col items-center gap-32 overflow-hidden bg-bgColor py-32 md:py-96 xl:gap-128 xl:py-160">
         <h3 className="text-center text-33 font-medium text-primary md:text-61 xl:text-80">
           What my clients are saying
-        </h3>
-
-        <div className=" max-w-1280 w-screen">
+        </h3> */}
+<h1></h1>
+        {/* <div className=" max-w-1280 w-screen">
           <Swiper
             effect={"cards"}
             grabCursor={true}
@@ -112,7 +112,7 @@ function testimonials() {
             })}
           </Swiper>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

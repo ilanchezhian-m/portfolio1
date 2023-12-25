@@ -91,7 +91,7 @@ export default component$(() => {
           >
             <div class={currentPage.services ? currentClass : otherClass}>
               <PhAirplayLight />
-              <span class="text-11 text-white">Services</span>
+              <span class="text-11 text-white">Resume</span>
             </div>
           </Link>
 
