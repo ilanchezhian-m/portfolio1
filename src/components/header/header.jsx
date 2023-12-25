@@ -71,10 +71,10 @@ export default component$(() => {
           <li
             class={currentPage.about ? currentClass : otherClass}
             onClick$={() => {
-              nav("/about");
+              nav("/");
             }}
           >
-            About
+            Home
           </li>
           <li
             class={currentPage.projects ? currentClass : otherClass}

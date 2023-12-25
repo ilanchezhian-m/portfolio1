@@ -8,7 +8,7 @@ import PhAirplayLight from "~/Icons/FloatingNavbar/PhAirplayLight";
 import PhChatsLight from "~/Icons/FloatingNavbar/PhChatsLight";
 import PhHouseLight from "~/Icons/FloatingNavbar/PhHouseLight";
 import PhLightbulbFilamentLight from "~/Icons/FloatingNavbar/PhLightbulbFilamentLight";
-import PhUserCircleLight from "~/Icons/FloatingNavbar/PhUserCircleLight";
+// import PhUserCircleLight from "~/Icons/FloatingNavbar/PhUserCircleLight";  
 
 export default component$(() => {
   const currentClass =
@@ -29,14 +29,14 @@ export default component$(() => {
     currentPage.contact = false;
   });
 
-  const aboutfn = $(() => {
-    nav("/about");
-    currentPage.home = false;
-    currentPage.about = true;
-    currentPage.projects = false;
-    currentPage.services = false;
-    currentPage.contact = false;
-  });
+  // const aboutfn = $(() => {
+  //   nav("/about");
+  //   currentPage.home = false;
+  //   currentPage.about = true;
+  //   currentPage.projects = false;
+  //   currentPage.services = false;
+  //   currentPage.contact = false;
+  // });
 
   const projectsfn = $(() => {
     nav("/projects");
@@ -76,13 +76,13 @@ export default component$(() => {
             </div>
           </Link>
 
-          <div
-            class={currentPage.contact ? currentClass : otherClass}
-            onClick$={contactfn}
-          >
-            <PhChatsLight />
-            <span class="text-11 text-white">Contact</span>
-          </div>
+          <Link href="/projects" onClick$={projectsfn}>
+            <div class={currentPage.projects ? currentClass : otherClass}>
+              <PhLightbulbFilamentLight />
+
+              <span class="text-11 text-white">Projects</span>
+            </div>
+          </Link>
 
           <Link
             href="/services"
@@ -95,20 +95,20 @@ export default component$(() => {
             </div>
           </Link>
 
-          <Link href="/projects" onClick$={projectsfn}>
-            <div class={currentPage.projects ? currentClass : otherClass}>
-              <PhLightbulbFilamentLight />
-
-              <span class="text-11 text-white">Projects</span>
-            </div>
-          </Link>
-
-          <Link href="/about" onClick$={aboutfn}>
+          <div
+            class={currentPage.contact ? currentClass : otherClass}
+            onClick$={contactfn}
+          >
+            <PhChatsLight />
+            <span class="text-11 text-white">Contact</span>
+          </div>
+       
+          {/* <Link href="/about" onClick$={aboutfn}>
             <div class={currentPage.about ? currentClass : otherClass}>
               <PhUserCircleLight />
               <span class="text-11 text-white">About</span>
             </div>
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </>

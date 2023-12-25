@@ -28,27 +28,6 @@ export default component$(() => {
   const image = images.value[0];
   return (
     <div class="flex flex-col gap-32 md:gap-64 lg:gap-128">
-      {/* Hero Heading */}
-      <section class="container min-w-full">
-        {/* Hero Heading Wrapper */}
-        <div class="flex w-full flex-col items-center justify-center md:min-h-screen">
-          <div class="mt-72 flex flex-col items-center gap-20 md:mt-32 md:gap-48 xl:mt-64">
-            <h2 class="text-center text-28 md:text-47 xl:text-61">Hi there!</h2>
-            <h1 class="text-center text-36 sm:text-40 md:text-80 lg:text-105 xl:text-138">
-              I'm Ilanchezhian
-            </h1>
-            <h2  class="text-center text-13 leading-150 md:text-19 xl:text-40 xl:leading-150">
-              Front End Developer React
-            </h2>
-            <h2 class="text-center text-13 leading-150 md:text-19 xl:text-24 xl:leading-150">
-              I Create Visually Stunning and Intuitively Functional Websites.
-              <br />
-              Crafted to Drive Result.
-            </h2>
-            {/* <ButtonSecond>Let's make it happen</ButtonSecond> */}
-          </div>
-        </div>
-      </section>
 
       {/* About Myself */}
       <section class="container flex min-w-full flex-col gap-32 md:gap-64 lg:gap-128">
