@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { ButtonSecond } from "~/components/button/ButtonSecond";
-import { ButtonThird } from "~/components/button/buttonThird";
+// import { ButtonSecond } from "~/components/button/ButtonSecond";
+// import { ButtonThird } from "~/components/button/buttonThird";
 import PhArrowRight from "~/Icons/main/PhArrowRight";
 import PhDevicesLight from "~/Icons/Usp/PhDevicesLight";
 import PhGearSixLight from "~/Icons/Usp/PhGearSixLight";
@@ -9,7 +9,7 @@ import PhHeadsetLight from "~/Icons/Usp/PhHeadsetLight";
 import PhMagicWandLight from "~/Icons/Usp/PhMagicWandLight";
 import PhPresentationChartLight from "~/Icons/Usp/PhPresentationChartLight";
 import PhTestTubeLight from "~/Icons/Usp/PhTestTubeLight";
-import { WorkflowReact } from "~/components/workflow/workflow-react";
+// import { WorkflowReact } from "~/components/workflow/workflow-react";
 import { MockupReact } from "~/components/mockup/mockup-react";
 import { type Any } from "@sanity/client";
 import imageUrlBuilder from "@sanity/image-url";
@@ -40,22 +40,25 @@ export default component$(() => {
   return (
     <>
       {/* // Hero Wrapper */}
-      <div class="mt-64 flex w-screen flex-col justify-center gap-64 sm:gap-32 md:mt-0 md:gap-64 lg:gap-128 xl:w-1280 ">
+      <div class="mt-40 flex w-screen flex-col justify-center gap-64 sm:gap-32 md:mt-0 md:gap-64 lg:gap-128 xl:w-1280">
         {/* Hero Heading */}
         <section class="container min-w-full">
           <div class="flex w-full flex-col items-center justify-center gap-24 md:min-h-screen">
             <div class=" mt-32 lg:mt-48">
-              <h1 class="bg-gradient-to-b from-blue to-textColor bg-clip-text text-57 tracking-low text-transparent sm:text-69 md:text-105 lg:text-138">
-                <span class="block text-center">Elevate</span>
-                <span class="block text-center">Your Brand</span>
-                <span class="block text-center">Online</span>
+              <h1 class="bg-blue bg-clip-text text-57 tracking-low text-transparent sm:text-69 md:text-105 lg:text-138">
+                <span class="block text-center">Ilanchezhian M</span>
+                {/* <span class="block text-center">Online</span> */}
+              </h1>
+              <h1 class="mt-10 bg-gradient-to-b from-blue  to-emerald-200  bg-clip-text text-57 tracking-low text-transparent sm:text-69 md:text-105 lg:text-138">
+                <span class="block text-center">Front End Developer</span>
+                {/* <span class="block text-center">Online</span> */}
               </h1>
             </div>
             <h2 class="text-center text-16 text-textColor md:text-21 lg:text-27">
               I Create Visually Stunning and Intuitively Functional Websites
               <span class="block text-center">Crafted to Drive Result</span>
             </h2>
-            <ButtonSecond>Let's make it happen</ButtonSecond>
+            {/* <ButtonSecond>Let's make it happen</ButtonSecond> */}
           </div>
         </section>
 
@@ -64,7 +67,7 @@ export default component$(() => {
         <MockupReact />
         <div>
           <Link href="/projects" aria-label="See all my projects">
-            <span class="flex items-center justify-center gap-4 text-16 hover:cursor-pointer md:gap-8 md:text-21">
+            <span class="flex items-center justify-center gap-4 text-16 hover:cursor-pointer md:gap-8 md:text-40 font-bold bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
               See my projects
               <span class="inline-block">
                 <PhArrowRight />
@@ -217,7 +220,7 @@ export default component$(() => {
                 conversion rates, understanding your user's needs and then
                 aligning them with your business goals.
               </p>
-              <ButtonThird>Schedule a call</ButtonThird>
+              {/* <ButtonThird>Schedule a call</ButtonThird> */}
             </div>
           </div>
         </section>
@@ -338,7 +341,8 @@ export default component$(() => {
         {/* My toolkit ends */}
 
         {/* My Workflow */}
-        <WorkflowReact client:idle />
+        {/* <WorkflowReact client:idle /> */}
+        <br />
         {/* My workflow ends */}
       </div>
       {/* // Hero Wrapper end */}

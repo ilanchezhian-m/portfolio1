@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { ButtonSecond } from "~/components/button/ButtonSecond";
+// import { ButtonSecond } from "~/components/button/ButtonSecond";
 import { useSanityMyImages } from "../layout";
 import imageUrlBuilder from "@sanity/image-url";
 import { Image } from "@unpic/qwik";
@@ -45,7 +45,7 @@ export default component$(() => {
               <br />
               Crafted to Drive Result.
             </h2>
-            <ButtonSecond>Let's make it happen</ButtonSecond>
+            {/* <ButtonSecond>Let's make it happen</ButtonSecond> */}
           </div>
         </div>
       </section>
