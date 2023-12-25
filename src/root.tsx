@@ -37,7 +37,7 @@ export default component$(() => {
   const ldJson: LDJsonData = {
     "@context": "http://schema.org",
     "@type": "Person",
-    name: "Anirban Das",
+    name: "Ilanchezhian",
     url: "https://www.anirbandas.in/",
     sameAs: [
       "https://www.linkedin.com/in/anirban12d",
