@@ -32,7 +32,7 @@ type Image = {
   background: string;
   class: string;
 };
-
+// This is an PROJECT PAGE 
 export default component$(() => {
   const projectsData = useSanityProjects();
   return (

@@ -3,17 +3,17 @@ import { useContext } from "@builder.io/qwik";
 
 import PhXCircleLight from "~/Icons/ChatBot/PhXCircleLight";
 import { ChatBotContext, currentPageContext } from "~/routes/layout";
-import { FormContext } from "~/routes/layout";
+// import { FormContext } from "~/routes/layout";
 import { useLocation } from "@builder.io/qwik-city";
 
 export default component$(() => {
   const loc = useLocation();
 
-  const formOpen = useContext(FormContext);
+  // const formOpen = useContext(FormContext);
 
-  const FormCloseHandler = $(() => {
-    formOpen.value = true;
-  });
+  // const FormCloseHandler = $(() => {
+  //   formOpen.value = true;
+  // });
 
   const outputRef = useSignal<Element>();
 
@@ -72,10 +72,10 @@ export default component$(() => {
     chats.hire = true;
   });
 
-  const clickHireFn = $(() => {
-    FormCloseHandler();
-    chats.hire = true;
-  });
+  // const clickHireFn = $(() => {
+  //   FormCloseHandler();
+  //   chats.hire = true;
+  // });
 
   const clickEmail = $(() => {
     chats.email = true;
@@ -98,7 +98,7 @@ export default component$(() => {
                 />
               </div>
               <div class="flex flex-col justify-center gap-2">
-                <h5 class="text-19 font-medium text-white">Anibot</h5>
+                <h5 class="text-19 font-medium text-white">Ilan bot</h5>
                 <span class="text-13 font-light text-white">
                   Ask me a question
                 </span>
@@ -122,11 +122,11 @@ export default component$(() => {
             </div>
 
             <div class="w-fit rounded-4xl bg-bgColor px-24 py-16 text-16 font-light text-white">
-              I’m Anibot, I’m here to help you with any questions you might have
+              I’m Ilan bot, I’m here to help you with any questions you might have
               about my work
             </div>
             <div class="w-fit self-end rounded-4xl border-2 border-black bg-white px-24 py-16 text-16 text-black">
-              <button onClick$={clickHello}>Just saying Hello! 👋</button>
+              <button onClick$={clickHello}>Hello! 👋</button>
             </div>
             <div class="w-fit self-end rounded-4xl border-2 border-black bg-white px-24 py-16 text-16 text-black">
               <button onClick$={clickHire}>I'd like to hire you</button>
@@ -168,16 +168,16 @@ export default component$(() => {
                 <div class="w-fit rounded-4xl bg-bgColor px-24 py-16 text-16 font-light text-white">
                   I'm excited! 🎉
                 </div>
-                <div class="w-fit rounded-4xl bg-bgColor px-24 py-16 text-16 font-light text-white">
+                {/* <div class="w-fit rounded-4xl bg-bgColor px-24 py-16 text-16 font-light text-white">
                   Send me a project request!
                 </div>
                 <div class="w-fit rounded-4xl bg-bgColor px-24 py-16 text-16 font-light text-white">
                   We'll talk further about your project
-                </div>
+                </div> */}
 
-                <div class="w-fit self-end rounded-4xl border-2 border-black bg-white px-24 py-16 text-16 text-black">
+                {/* <div class="w-fit self-end rounded-4xl border-2 border-black bg-white px-24 py-16 text-16 text-black">
                   <button onClick$={clickHireFn}>Send a project request</button>
-                </div>
+                </div> */}
                 <div class="w-fit self-end rounded-4xl border-2 border-black bg-white px-24 py-16 text-16 text-black">
                   <button onClick$={clickEmail}>Send an email</button>
                 </div>
