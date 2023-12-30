@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 // import { LearnMoreBtn } from "~/components/button/LearnMoreBtn";
 
 
-// import type { DocumentHead } from "@builder.io/qwik-city";
+import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
@@ -23,4 +23,16 @@ export default component$(() => {
     </div>
   );
 });
+export const head: DocumentHead = {
+  // This will be used to resolve the <title> of the page
+  title: "Ilanchezhian ",
+  meta: [
+    {
+      name: "description",
+      content:
+        "I Create Visually Stunning and Intuitively Functional Websites Crafted to Drive Result",
+    },
+  ], 
+};
+
 
