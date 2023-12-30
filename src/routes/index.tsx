@@ -6,19 +6,19 @@ import PhArrowRight from "~/Icons/main/PhArrowRight";
 
 // import { WorkflowReact } from "~/components/workflow/workflow-react";
 
-import { type Any } from "@sanity/client";
-import imageUrlBuilder from "@sanity/image-url";
+// import { type Any } from "@sanity/client";
+// import imageUrlBuilder from "@sanity/image-url";
 import { Image } from "@unpic/qwik";
-import { client } from "./layout";
+// import { client } from "./layout";
 import { useSanityMyImages } from "./layout";
 import { Link } from "@builder.io/qwik-city";
 
 
-const builder = imageUrlBuilder(client);
+// const builder = imageUrlBuilder(client);
 
-function urlFor(source: Any) {
-  return builder.image(source);
-}
+// function urlFor(source: Any) {
+//   return builder.image(source);
+// }
 
 type Image = {
   src: string;
@@ -109,13 +109,21 @@ export default component$(() => {
           
         </div>
       </section>
-      
+      <section class="w-full">
+          <div class="flex flex-col items-center gap-8 px-32 md:gap-16 lg:gap-32 xl:gap-32">
+            <h3 class="text-33 font-medium md:text-61 xl:text-80">
+              About Me
+            </h3>
+            </div>
+      </section>
         {/* Introduction Section */}
         <section class="flex w-full items-center">
+        
           <div class=" mx-8 flex flex-col items-center gap-4 overflow-hidden rounded-4xl border-8 border-solid border-black text-center sm:mx-32 sm:border-8 md:mx-120 lg:flex-row-reverse lg:text-left">
+           
             <div class="h-full w-5/6 overflow-hidden">
               <Image
-                src={urlFor(sanity.value[0]?.introductionImage).url()}
+                src="/images/logo/ilan.png"
                 layout="constrained"
                 width={386}
                 height={515}
@@ -143,7 +151,7 @@ export default component$(() => {
         <section class="w-full">
           <div class="flex flex-col items-center gap-8 px-32 md:gap-16 lg:gap-32 xl:gap-32">
             <h3 class="text-33 font-medium md:text-61 xl:text-80">
-              My toolkit
+              Skills
             </h3>
             <h4 class="mt-16 text-center text-15 text-textColor sm:text-16 md:mt-32 md:text-21 xl:text-27">
               I’m capable of working confidently with any tools necessary to
