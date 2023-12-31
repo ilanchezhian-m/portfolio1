@@ -63,7 +63,7 @@ export default component$(() => {
         </h4>
         <div class="flex flex-col gap-32 px-40 py-40 md:gap-64 bg-grey rounded-2xl  ">
         <p class="font-bold container min-w-full text-center text-13 text-black sm:text-16 lg:text-21 xl:text-27"> 
-                 Startup Website
+                 Website for an StartUp
                 </p>
         <Image
                   src="/images/logo/tas.png"
@@ -75,15 +75,18 @@ export default component$(() => {
                   // class="w-50 md:w-104 xl:w-152"
                 />
                 <div class="flex justify-evenly font-bold">
-                <button class="bg-emerald-500 text-white px-12 py-8 rounded-lg">Github</button>
-                <button class="bg-cyan-400 text-white px-12 py-8 rounded-lg ">Live link</button>
+                
+              <a href="http://github.com/ilanchezhian-m/tas" target="_blank">
+                <button class="bg-black text-white px-28 py-8 rounded-lg">Github</button>
+                </a>
+                <a href="https://www.tasinnovation.com/" target="_blank">
+                <button class="bg-black text-white px-28 py-8 rounded-lg ">Live link</button>
+                </a>
                 </div>
                 </div>
                 <p class="font-bold container min-w-full text-center text-13 text-black sm:text-16 lg:text-21 xl:text-27"> 
-                  Developed a website for Tas Innovation Startup using Tailwind CSS, React.js on vite , implemented mail functionality with Nodemailer
+                  Developed a website for Tas Innovation Startup using Tailwind CSS, React.js on vite , implemented mail functionality with Nodemailer.
                 </p>
-                  
-        
       </section>
     </div>
   );

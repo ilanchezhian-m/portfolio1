@@ -160,8 +160,7 @@ export default component$(() => {
               These are few of my favorites'
             </h4>
             <div class="mt-16 flex max-w-868 flex-col items-center gap-16 rounded-4xl border-8  border-solid border-black px-32 py-24 md:mt-32 md:gap-32 md:px-64 md:py-64 lg:px-64 lg:py-72">
-              <div class="flex items-center justify-around gap-8 sx:gap-10 sm:gap-32 md:gap-64">
-                
+              <div class="flex items-center justify-around gap-8 sx:gap-10 sm:gap-32 md:gap-64">  
                 <div class="text-center">
                   <Image
                   src="/images/logo/html.png"
